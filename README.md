@@ -1,51 +1,73 @@
-# Edu Courses 
+# edu-courses
 
-A modern, responsive course player application built with Next.js, React, and TypeScript. Designed to deliver interactive lessons, course materials, student discussions, and quizzes/exams with persistent progress tracking.
+> Full Educational Platform — courses, assignments, progress tracking and Paymob payments
 
-## Tech Stack & Tools
+---
 
-- **Framework:** Next.js (App Router)
-- **Library:** React 19
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS v4 & PostCSS
-- **UI Components:** Radix UI primitives & Lucide React icons
-- **Animations:** Motion
+## 📋 About
 
-## Project Structure
+Full Educational Platform — courses, assignments, progress tracking and Paymob payments
 
-```text
-src/
-├── app/                  # Next.js App Router pages and layouts
-│   ├── layout.tsx        # Root layout with font and global styles
-│   ├── page.tsx          # Home page container
-│   └── globals.css       # Global styles and design tokens
-├── components/           # Reusable UI components
-│   ├── ui/               # Radix-based primitives (dialog, accordion, progress, button)
-│   ├── courses/          # Course specific modules (outline, materials, shell, modals)
-│   ├── exam/             # Quiz and exam modals and hooks
-│   ├── course-video.tsx  # Video player component
-│   └── comments.tsx      # Student comments section
-├── data/                 # Static data and mock content
-└── type/                 # TypeScript type definitions
+Built by [Mustafa Mahmoud](https://mustafa-mahmoud.vercel.app) — Full-Stack Developer from Cairo, Egypt 🇪🇬
+
+### ✨ Key Features
+
+- 🚀 Modern, production-ready codebase
+- 📱 Fully responsive design
+- ⚡ Optimized performance
+- 🎨 Clean and intuitive UI/UX
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Version |
+|-----------|---------|
+| `Next.js` | latest |
+| `React` | latest |
+| `Paymob` | latest |
+| `TailwindCSS` | latest |
+| `MongoDB` | latest |
+
+---
+
+## 🚀 Setup
+
+```bash
+git clone https://github.com/mustafaelzoghby/edu-courses
+cd edu-courses
+pnpm install
+pnpm run dev
 ```
 
-## Getting Started
+## ⚙️ Environment Variables
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+Create a `.env` / `.env.local` file (never commit it):
 
-2. Run the development server:
-   ```bash
-   npm run dev
-   ```
+```env
+DATABASE_URL=your_db_url
+SECRET_KEY=your_secret
+API_URL=your_api_url
+```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+## 🧪 Tests
+```bash
+pnpm run test
+```
 
-## Available Scripts
+---
 
-- `npm run dev`: Starts the development server.
-- `npm run build`: Builds the application for production.
-- `npm start`: Runs the production server.
-- `npm run typecheck`: Runs TypeScript compiler check without emitting files.
+## 👨💻 Author
+
+**Mustafa Mahmoud** — Full-Stack Developer
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-mustafa--mahmoud.vercel.app-purple?style=flat-square)](https://mustafa-mahmoud.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-mustafaelzoghby-black?style=flat-square&logo=github)](https://github.com/mustafaelzoghby)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mustafa%20Mahmoud-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mustafa-mahmoud-4a38643b9)
+[![Email](https://img.shields.io/badge/Email-mustafaelzoghby7%40gmail.com-red?style=flat-square&logo=gmail)](mailto:mustafaelzoghby7@gmail.com)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
